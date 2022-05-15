@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+   
+    <title>YouTubeClone</title>
+    <link rel = "icon" href = 
+"YouTube-icon.png" 
+        type = "image/x-icon">
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="logo.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="search.PNG" alt=""></button>
+            <img src="mic.PNG" class="icon" alt="">
+        </div>
+        <div class="user-options">
+          
+            <img src="video.PNG" class="icon" alt="">
+            <img src="grid.PNG" class="icon" alt="">
+            <img src="bell.PNG" class="icon" alt="">
+        </div>
+    </nav>
+
+    
+    <div class="side-bar">
+        <a href="#" class="links "><img src="menu_FILL0_wght400_GRAD0_opsz48.png" alt=""></a>
+        <a href="#" class="links "><img src="home.PNG" alt="">Home</a>
+        <a href="#" class="links"><img src="explore.PNG" alt="">Explore</a>
+        <a href="#" class="links"><img src="shorts.PNG" alt="">Shorts</a>
+        <a href="#" class="links"><img src="subscription.PNG" alt="">Subscription</a>
+        <a href="#" class="links"><img src="library.PNG" alt="">Library</a>
+    </div>
+
+   
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=1Rs2ND1ryYc'">CSS</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=Q33KBiDriJY'">web development</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=paDG3S3UmQM'">entertainment</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=o1IaduQICO0'">javascript</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=oV74Najm6Nc'">artificial intelligence</button>
+        <button class="filter-options" onclick="location.href='https://www.youtube.com/watch?v=GwIo3gDZCVQ'">machine learning</button>
+        
+    </div>
+
+   
+    <div class="video-container">
+        
+        <div class="video" onclick= "location.href = 'https://www.youtube.com/watch?v=5v0MMfjeIPg&t=6s'">
+            <img src="spb.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="profile.jpg" class= "channel-icon" alt="">
+                <div class="info">
+                    <h5 class="title">SPB Challenge Song</h5>
+                    <p class="channel-name" >Rajivee J</p>
+                    
+                </div>
+            </div>
+            </div>
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>
